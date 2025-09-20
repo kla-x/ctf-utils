@@ -19,8 +19,4 @@ with socket.create_connection(("challenge01.root-me.org",52023),timeout=10) as s
     s.sendall(rb_dec+b"\n")
     resp = s.recv(1000)
     print(resp)
-
-    
-
-
     
